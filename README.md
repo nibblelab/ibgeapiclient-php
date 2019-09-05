@@ -3,6 +3,15 @@
 
 A especificação da API pode ser encontrada em https://servicodados.ibge.gov.br/api/docs/localidades?versao=1
 
+# Sumário
+
+1. [Pré requisitos](#pré-requisitos)
+2. [Inicialização](#inicialização)
+3. [Regiões](#regiões)
+4. [UFs](#ufs)
+5. [Mesorregiões](#mesorregiões)
+6. [Microrregiões](#microrregiões)
+7. [Municípios](#municípios)
 
 ## Pré requisitos
 
@@ -76,7 +85,7 @@ try
 }
 ```
 
-## UF's
+## UFs
 
 ### Todas as UF's
 
