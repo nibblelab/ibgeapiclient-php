@@ -107,7 +107,7 @@ class MunicipioResponseData
      * 
      * @param \IBGEApiClient\MicroRegiao\Response\MicroRegiaoResponseData $microrregiao
      */
-    public function setMesorregiao($microrregiao)
+    public function setMicrorregiao($microrregiao)
     {
         $this->microrregiao = $microrregiao;
     }
