@@ -99,7 +99,7 @@ class MunicipioRequest extends Request
         $municipio_data = new MunicipioResponseData();
         $municipio_data->setId($municipio_obj->id);
         $municipio_data->setNome($municipio_obj->nome);
-        $municipio_data->setMesorregiao($this->micro_req->mountMicroRegiao($municipio_obj->microrregiao));
+        $municipio_data->setMicrorregiao($this->micro_req->mountMicroRegiao($municipio_obj->microrregiao));
         return $municipio_data;
     }
     

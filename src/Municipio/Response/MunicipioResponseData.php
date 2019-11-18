@@ -97,7 +97,7 @@ class MunicipioResponseData
      * 
      * @return \IBGEApiClient\MicroRegiao\Response\MicroRegiaoResponseData
      */
-    public function getMesorregiao(): \IBGEApiClient\MicroRegiao\Response\MicroRegiaoResponseData
+    public function getMicrorregiao(): \IBGEApiClient\MicroRegiao\Response\MicroRegiaoResponseData
     {
         return $this->microrregiao;
     }
@@ -107,7 +107,7 @@ class MunicipioResponseData
      * 
      * @param \IBGEApiClient\MicroRegiao\Response\MicroRegiaoResponseData $microrregiao
      */
-    public function setMesorregiao($microrregiao)
+    public function setMicrorregiao($microrregiao)
     {
         $this->microrregiao = $microrregiao;
     }
